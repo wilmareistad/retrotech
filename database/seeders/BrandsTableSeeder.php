@@ -22,9 +22,9 @@ class BrandsTableSeeder extends Seeder
         ];
 
         foreach($brands as $brand){
-            Brand::create([
-            'name' => $brand    
-            ]);
+        Brand::firstOrCreate([
+        'name' => $brand    
+        ]);
         }
     }
 }
