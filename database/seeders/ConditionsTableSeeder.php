@@ -22,9 +22,9 @@ class ConditionsTableSeeder extends Seeder
         ];
 
         foreach($conditions as $condition){
-            Condition::create([
-                'name' => $condition
-            ]);
+        Condition::firstOrCreate([
+            'name' => $condition
+        ]);
         }
     }
 }

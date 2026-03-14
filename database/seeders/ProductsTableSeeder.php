@@ -10,6 +10,9 @@ class ProductsTableSeeder extends Seeder
 {
     public function run(): void
     {
+        if (Product::count() > 0) {
+            return;
+        }
         $sony = Brand::where('name', 'Sony')->first();
         $nintendo = Brand::where('name', 'Nintendo')->first();
         $microsoft = Brand::where('name', 'Microsoft')->first();
