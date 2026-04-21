@@ -8,13 +8,6 @@ This project was built as part of a Laravel course assignment to practice buildi
 
 **Category:** Electronics 
 
-## 🌍 Live Demo
-
-Visit the application here: https://retrotech-production.up.railway.app
-
-Login email: admin@retrotech.se
-Login password: 123
-
 ## Features
 
 - Login / logout with authentication
